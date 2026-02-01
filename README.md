@@ -26,8 +26,8 @@ I am a Computer Science student specializing in **Artificial Intelligence**. I l
 
 
 📢 **Contact Me:**  
-[![GitHub](https://img.shields.io/badge/GitHub-ZaenalSamsul-181717?style=for-the-badge&logo=github)](https://github.com/zaenalSamsul)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ZaenalSyamsyulArief-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/zaenal-syamsyul-arief/)  
-[![Email](https://img.shields.io/badge/Email-ZaenalSamsulArief-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zaenaloco@gmai.com)  
-[![Website](https://img.shields.io/badge/Email-ZaenalSamsulArief-D14836?style=for-the-badge&logo=webl&logoColor=white)]([mailto:zaenaloco@gmai.com](https://zaenalsyamsyularief-porto.vercel.app))  
+[![GitHub](https://img.shields.io/badge/GitHub-ZaenalSamsul-181717?style=for-the-badge&logo=github)](https://github.com/zaenalSamsul)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Zaenal%20Syamsyul%20Arief-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/zaenal-syamsyul-arief/)
+[![Email](https://img.shields.io/badge/Email-ZaenalSamsulArief-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zaenaloco@gmail.com)
+[![Website](https://img.shields.io/badge/Website-Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://zaenalsyamsyularief-porto.vercel.app)
 ⭐ **Keep Exploring & Keep Learning!** 🚀
