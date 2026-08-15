@@ -1,66 +1,161 @@
 <div align="center">
-
-# Zaenal Syamsyul Arief
-
-**AI Engineering · Data Science · Generative AI**
-
-Building AI systems that connect models, data, APIs, retrieval, agents, and product interfaces.
-
-[Portfolio](https://zaenalsyamsyularief-porto.vercel.app) · [LinkedIn](https://www.linkedin.com/in/zaenal-syamsyul-arief/) · [GitHub](https://github.com/zaenalSamsul) · [Email](mailto:zaenaloco@gmail.com)
-
+  <img src="./assets/profile-header.svg" alt="Zaenal Syamsyul Arief — AI Engineering, Data Science, Generative AI" width="100%" />
 </div>
 
+<br />
+
+<div align="center">
+  <a href="https://zaenalsyamsyularief-porto.vercel.app"><b>Portfolio</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/zaenal-syamsyul-arief/"><b>LinkedIn</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:zaenaloco@gmail.com"><b>Email</b></a>
+</div>
+
+<br />
+
+## About Me
+
+I’m a Computer Science student focused on **Artificial Intelligence** and the engineering behind useful AI products.
+
+My work sits at the intersection of **machine learning, generative AI, retrieval systems, computer vision, data engineering, backend APIs, analytics, and deployment**. I like building beyond isolated notebooks: connecting models with real data, APIs, databases, evaluation, monitoring, and product interfaces.
+
+> **Current direction:** production-minded AI systems, RAG, agents, evaluation, observability, MLOps, and scalable application architecture.
+
 ---
 
-## About
+## Tech I Work With
 
-I'm a Computer Science student focused on **Artificial Intelligence** and the engineering behind useful AI products.
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,fastapi,flask,nodejs,react,nextjs,ts,postgres,redis,docker,gcp,git,github&perline=8" alt="Technology stack" />
+</div>
 
-My work covers machine learning, generative AI, RAG, agentic systems, computer vision, data engineering, backend APIs, analytics, and deployment. I enjoy taking projects beyond model experimentation and turning them into complete systems that can be explored, evaluated, and used.
+<br />
 
-Currently, I'm deepening my understanding of **production AI systems, MLOps, retrieval pipelines, AI agents, evaluation, observability, and scalable application architecture**.
+<table>
+  <tr>
+    <td width="25%" align="center"><b>AI / ML</b><br/><sub>RAG · LLMs · CV · NLP</sub></td>
+    <td width="25%" align="center"><b>Backend</b><br/><sub>FastAPI · Flask · Node.js</sub></td>
+    <td width="25%" align="center"><b>Data</b><br/><sub>PostgreSQL · Elasticsearch · Redis</sub></td>
+    <td width="25%" align="center"><b>Infra</b><br/><sub>Docker · GitHub Actions · GCP</sub></td>
+  </tr>
+</table>
 
 ---
 
-## Featured Work
+## Featured Projects
 
-### [StuntLytics](https://github.com/zaenalSamsul/StuntLytics-Productiion)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Child-growth analytics and decision-support workspace** for regional monitoring, risk intelligence, machine-learning screening, evidence exploration, and AI-assisted insights.
+### StuntLytics
 
-`Next.js` · `FastAPI` · `Elasticsearch` · `scikit-learn` · `Redis` · `Gemini` · `Docker`
+**Child-growth analytics & decision-support workspace** combining regional monitoring, machine-learning screening, evidence exploration, and AI-assisted insights.
 
-StuntLytics brings several engineering layers into one application:
+`Next.js` `FastAPI` `Elasticsearch` `scikit-learn` `Redis` `Gemini` `Docker`
 
-- executive monitoring dashboard and regional priority analysis
-- geospatial risk intelligence and interactive regional exploration
-- record-level data exploration and filtering
-- correlation and trend analysis
-- local machine-learning screening pipeline
+**What makes it interesting**
+- geospatial risk intelligence
+- ML screening pipeline
 - evidence-grounded AI insights
-- audit trail, data-status monitoring, and decision-support guardrails
-- Docker-based local infrastructure with Elasticsearch, Kibana, and Redis
+- analytics and audit trail
+- containerized local infrastructure
 
-**Architecture**
+<a href="https://github.com/zaenalSamsul/StuntLytics-Productiion"><b>Explore repository →</b></a>
+
+</td>
+<td width="50%" valign="top">
+
+### Customer Support Agent
+
+**Production-oriented AI support workflow** with agent orchestration, retrieval, guardrails, evaluation, observability, and Human-in-the-Loop escalation.
+
+`LangGraph` `ChromaDB` `Sentence Transformers` `Langfuse` `SQLite`
+
+**What makes it interesting**
+- multi-node agent workflow
+- prompt-injection protection
+- LLM-as-a-judge evaluation
+- tracing and ticket persistence
+- Telegram escalation
+
+<a href="https://github.com/zaenalSamsul/Customer-Support-Agent-"><b>Explore repository →</b></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### MyCare AI
+
+**AI-powered mental-health application** combining generative AI and emotion classification for more contextual interactions.
+
+`React` `Node.js` `Flask` `TensorFlow` `Vertex AI` `Cloud Run`
+
+**Focus areas**
+- decoupled AI architecture
+- emotion classification
+- generative AI integration
+- dedicated ML service
+- cloud deployment
+
+<a href="https://github.com/zaenalSamsul/MyCareAi"><b>Explore repository →</b></a>
+
+</td>
+<td width="50%" valign="top">
+
+### Price Tracker Agent
+
+**Agentic price-monitoring system** that automates product tracking, persistence, scheduled execution, alerting, and dashboard monitoring.
+
+`Python` `Playwright` `MCP` `APScheduler` `SQLite` `Telegram` `Streamlit`
+
+**Focus areas**
+- browser automation
+- reusable MCP tools
+- scheduled workflows
+- price-history persistence
+- Telegram notifications
+
+<a href="https://github.com/zaenalSamsul/Price-Tracker-Agent"><b>Explore repository →</b></a>
+
+</td>
+</tr>
+</table>
+
+---
+
+## System Spotlight — StuntLytics
 
 ```text
-Regional Data
-     |
-     v
-Elasticsearch ---> FastAPI Evidence API ---> Next.js Workspace
-                         |
-                         +--> Local ML Screening
-                         +--> Analytics & Evidence Layer
-                         +--> Optional Gemini Narrative Layer
+                         ┌─────────────────────┐
+                         │    Regional Data    │
+                         └──────────┬──────────┘
+                                    │
+                                    ▼
+                         ┌─────────────────────┐
+                         │    Elasticsearch    │
+                         └──────────┬──────────┘
+                                    │
+                                    ▼
+┌────────────────┐       ┌─────────────────────┐       ┌──────────────────┐
+│ Local ML       │◄──────│ FastAPI Evidence    │──────►│ Next.js Workspace│
+│ Screening      │       │ API                 │       │ + Analytics UI   │
+└────────────────┘       └──────────┬──────────┘       └──────────────────┘
+                                    │
+                         ┌──────────┴──────────┐
+                         ▼                     ▼
+                ┌────────────────┐    ┌────────────────┐
+                │ Evidence Layer │    │ Gemini Layer   │
+                └────────────────┘    └────────────────┘
 ```
 
-This project best represents the direction I am pursuing: combining **AI, data engineering, backend systems, analytics, and product development** into one coherent application.
-
-[View repository →](https://github.com/zaenalSamsul/StuntLytics-Productiion)
+This project best represents the direction I’m pursuing: combining **AI, data engineering, backend systems, analytics, and product development** into one coherent application.
 
 ---
 
-## GitHub Metrics
+## GitHub Activity
 
 <div align="center">
   <img src="./metrics-overview.svg" alt="GitHub overview metrics" width="100%" />
@@ -81,89 +176,86 @@ This project best represents the direction I am pursuing: combining **AI, data e
   <img src="./metrics-calendar.svg" alt="Contribution calendar" width="100%" />
 </div>
 
-<sub>Metrics are generated automatically with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a>.</sub>
+<sub>Metrics are generated automatically with lowlighter/metrics.</sub>
 
 ---
 
-## Selected Projects
+## More Projects
 
-### [Customer Support Agent](https://github.com/zaenalSamsul/Customer-Support-Agent-)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Production-oriented AI support workflow built with **LangGraph, RAG, guardrails, evaluation, observability, and Human-in-the-Loop escalation**.
+**E-Wallet Sentiment Monitoring**  
+Full-stack sentiment-monitoring platform.  
+`Next.js` · `Express.js` · `Python` · `PostgreSQL` · `Docker`  
+[Repository →](https://github.com/zaenalSamsul/e-wallet-sentiment)
 
-`LangGraph` · `ChromaDB` · `Sentence Transformers` · `Langfuse` · `Ollama / Groq` · `SQLite`
+</td>
+<td width="50%" valign="top">
 
-Key engineering areas: multi-node agent orchestration, retrieval, prompt-injection protection, output validation, LLM-as-a-judge evaluation, tracing, ticket persistence, and Telegram escalation.
+**DANA Sentiment Analysis**  
+NLP and sentiment analysis for digital-wallet reviews.  
+[Repository →](https://github.com/zaenalSamsul/Analisis-Sentimen-Aplikasi-Dana)
 
-### [MyCare AI](https://github.com/zaenalSamsul/MyCareAi)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-AI-powered mental-health application that combines **generative AI with emotion classification** to provide more contextual and personalized interactions.
+**Chest X-Ray Pneumonia & COVID-19**  
+Deep-learning medical image classification.  
+[Repository →](https://github.com/zaenalSamsul/CHEST-X-RAY_PNEUMONIA_COVID-19)
 
-`React` · `Node.js` · `Flask` · `TensorFlow` · `Vertex AI` · `Google Cloud Run`
+</td>
+<td width="50%" valign="top">
 
-The project explores a decoupled AI architecture with a web frontend, API gateway, dedicated ML service, generative AI integration, and cloud deployment.
+**Stomach Cancer Detection**  
+Medical-image deep learning project.  
+[Repository →](https://github.com/zaenalSamsul/Stomach-Cancer-Detection)
 
-### [Price Tracker Agent](https://github.com/zaenalSamsul/Price-Tracker-Agent)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-Agentic price-monitoring system for automating product tracking across e-commerce platforms.
+**Movie Recommendation System**  
+Recommendation system project.  
+[Repository →](https://github.com/zaenalSamsul/System-Rekomendasi-Film)
 
-`Python` · `Playwright` · `MCP` · `APScheduler` · `SQLite` · `Telegram` · `Streamlit`
+</td>
+<td width="50%" valign="top">
 
-It combines browser automation, reusable MCP tools, scheduled execution, price-history persistence, alerting, and a monitoring dashboard.
+**Fashion Product ETL Pipeline**  
+Data engineering and ETL workflow.  
+[Repository →](https://github.com/zaenalSamsul/PipelineETLProdukFashion)
 
-### [E-Wallet Sentiment Monitoring](https://github.com/zaenalSamsul/e-wallet-sentiment)
-
-Full-stack sentiment-monitoring system for analyzing user feedback from digital-wallet reviews.
-
-`Next.js` · `Express.js` · `Python` · `PostgreSQL` · `Prisma` · `Docker` · `GitHub Actions`
-
-The project is structured across frontend, backend, AI/data-science, database, and infrastructure layers.
-
----
-
-## More Work
-
-| Project | Area |
-|---|---|
-| [Analisis Sentimen Aplikasi DANA](https://github.com/zaenalSamsul/Analisis-Sentimen-Aplikasi-Dana) | NLP and sentiment analysis |
-| [Chest X-Ray Pneumonia & COVID-19](https://github.com/zaenalSamsul/CHEST-X-RAY_PNEUMONIA_COVID-19) | Deep-learning image classification |
-| [Stomach Cancer Detection](https://github.com/zaenalSamsul/Stomach-Cancer-Detection) | Medical-image deep learning |
-| [Rice Image Classification](https://github.com/zaenalSamsul/Klasifikasi-Gambar-Rice-Image-Klasifikasi) | Computer vision |
-| [Movie Recommendation System](https://github.com/zaenalSamsul/System-Rekomendasi-Film) | Recommendation systems |
-| [Fashion Product ETL Pipeline](https://github.com/zaenalSamsul/PipelineETLProdukFashion) | Data engineering and ETL |
-
----
-
-## Stack
-
-**AI / ML**  
-Python · PyTorch · TensorFlow · scikit-learn · RAG · LLMs · LangGraph · Gemini
-
-**Data / Backend**  
-FastAPI · Flask · Node.js · PostgreSQL · Elasticsearch · Redis · SQLite
-
-**Frontend / Product**  
-React · Next.js · TypeScript · Tailwind CSS · Streamlit
-
-**Engineering / Infrastructure**  
-Docker · GitHub Actions · Google Cloud · REST APIs · Testing · Monitoring
+</td>
+</tr>
+</table>
 
 ---
 
-## Current Focus
+## What I’m Exploring Now
 
-- building production-minded AI applications rather than isolated model demos
-- designing RAG and agentic workflows with evaluation, guardrails, and observability
-- connecting ML models with APIs, databases, search systems, and product interfaces
-- improving MLOps and deployment practices for AI systems
-- turning AI prototypes into useful, maintainable applications
+```yaml
+focus:
+  - production AI applications
+  - RAG and agentic workflows
+  - evaluation, guardrails and observability
+  - MLOps and deployment practices
+  - AI + backend + data architecture
+  - maintainable AI product systems
+```
 
 ---
 
 <div align="center">
-
-**Build useful systems. Learn deeply. Ship continuously.**
-
-[Portfolio](https://zaenalsyamsyularief-porto.vercel.app) · [LinkedIn](https://www.linkedin.com/in/zaenal-syamsyul-arief/) · [Email](mailto:zaenaloco@gmail.com)
-
+  <b>Build useful systems. Learn deeply. Ship continuously.</b>
+  <br/><br/>
+  <a href="https://zaenalsyamsyularief-porto.vercel.app">Portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/zaenal-syamsyul-arief/">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:zaenaloco@gmail.com">Email</a>
 </div>
