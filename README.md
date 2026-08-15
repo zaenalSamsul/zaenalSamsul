@@ -60,6 +60,31 @@ This project best represents the direction I am pursuing: combining **AI, data e
 
 ---
 
+## GitHub Metrics
+
+<div align="center">
+  <img src="./metrics-overview.svg" alt="GitHub overview metrics" width="100%" />
+</div>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./metrics-languages.svg" alt="Most used languages" width="100%" />
+    </td>
+    <td width="50%" valign="top">
+      <img src="./metrics-habits.svg" alt="Coding habits" width="100%" />
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <img src="./metrics-calendar.svg" alt="Contribution calendar" width="100%" />
+</div>
+
+<sub>Metrics are generated automatically with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a>.</sub>
+
+---
+
 ## Selected Projects
 
 ### [Customer Support Agent](https://github.com/zaenalSamsul/Customer-Support-Agent-)
